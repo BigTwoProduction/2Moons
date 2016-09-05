@@ -42,9 +42,9 @@ $LNG['type_mission'][10]  					= 'Ataque de Misseis';
 $LNG['type_mission'][11]  					= 'Investigação de Matéria Negra ';
 $LNG['type_mission'][15] 					= 'Expedição';
 
-$LNG['type_planet'][1]  					= 'Planeta';
-$LNG['type_planet'][2]  					= 'Campo de Destroços';
-$LNG['type_planet'][3]  					= 'Lua';
+$LNG['type_planet_1']  					= 'Planeta';
+$LNG['type_planet_2']  					= 'Campo de Destroços';
+$LNG['type_planet_3']  					= 'Lua';
 
 $LNG['user_level'] = array (
 	'0' => 'Jogador',
@@ -471,7 +471,7 @@ $LNG['tt_lvl']								= 'Nivel ';
 //----------------------------------------------------------------------------//
 // Infos
 $LNG['in_jump_gate_no_target']				= 'Sem alvo disponivel';
-$LNG['in_jump_gate_done']					='O portal de salto foi usado, poderás voltar a usá-lo em:';
+$LNG['in_jump_gate_done']					= 'O portal de salto foi usado, poderás voltar a usá-lo em:';
 $LNG['in_jump_gate_error_data']			    = 'Erro, coordenadas para salto não estão corretas!';
 $LNG['in_jump_gate_not_ready_target']		= 'O portal não está pronto na lua de destino, Estará pronto em ';
 $LNG['in_jump_gate_doesnt_have_one']		= 'Não tens outro portal para efetuar o salto!';

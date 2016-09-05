@@ -36,10 +36,10 @@ $LNG['only_numbers']		= '¡Solo se pueden ingresar números (0-9)!';
 $LNG['select_option']		= 'Seleccionar...';
 
 // 	RANGO - RANK
-$LNG['rank'][0]	= 'Jugador';
-$LNG['rank'][1]	= 'Moderador';
-$LNG['rank'][2]	= 'Operador';
-$LNG['rank'][3]	= 'Administrador';
+$LNG['rank_0']	= 'Jugador';
+$LNG['rank_1']	= 'Moderador';
+$LNG['rank_2']	= 'Operador';
+$LNG['rank_3']	= 'Administrador';
 
 
 // 	TIEMPO - TIME
@@ -52,11 +52,11 @@ $LNG['time_seconds']	= 'Segundos';
 $LNG['info_information']	= 'Para información y reporte de errores ir a <a href="%s" target="tracker">2Moons Board</a><br>¡No hay soporte de otra forma!';
 
 //---------------	¿SI O NO? - YES OR NO? - JA ODER NEIN?	------------------------// 
-$LNG['one_is_yes'][1]	= 'Sí';
-$LNG['one_is_yes'][0]	= 'No';
+$LNG['one_is_yes_1']	= 'Sí';
+$LNG['one_is_yes_0']	= 'No';
 
-$LNG['one_is_no'][1]	= 'Sí';
-$LNG['one_is_no'][0]	= 'No';
+$LNG['one_is_no_1']	= 'Sí';
+$LNG['one_is_no_0']	= 'No';
 //###########################################################//
 
 
@@ -510,10 +510,6 @@ $LNG['se_planets_per_tech_info'] 		= 'Por cana nivel de la investigación, el ju
 $LNG['se_silo_factor']					= 'Factor del Silo de Misiles';
 $LNG['se_silo_factor_info']				= 'Factor de Tamaño para el Silo';
 $LNG['se_timzone']						= 'Zona Horaria de Unis';
-$LNG['se_dst_mode']							= 'Horario de Verano?';
-$LNG['se_dst_sel'][0]					= 'No';
-$LNG['se_dst_sel'][1]					= 'Si';
-$LNG['se_dst_sel'][2]					= 'Automatico';
 $LNG['se_max_dm_missions']				= 'Max. de misiones actuales en paralelo de Busqueda de DM';
 $LNG['se_alliance_create_min_points']   		= 'Número mínimo de puntos necesarios para crear una alianza';
 $LNG['se_disclamerAddress']				= 'Dirección';
@@ -869,41 +865,41 @@ $LNG['se_delete_succes_p']	=	'Borrado con éxito';
 $LNG['se_confirm_planet']	=	'El planeta seleccionado sera borrado completamente, ya sea planeta principal o una colonia, ¿deseas continuar?. Nombre del planeta: ';
 
 // BÚSQUEDA EN TABLA DE USUARIOS
-$LNG['se_search_users'][0]	=	$SE_ID;
-$LNG['se_search_users'][1]	=	$SE_NAME;
-$LNG['se_search_users'][2]	=	'Correo electrónico';
-$LNG['se_search_users'][3]	=	'Última actividad';
-$LNG['se_search_users'][4]	=	'Fecha de registro';
-$LNG['se_search_users'][5]	=	'Última IP';
-$LNG['se_search_users'][6]	=	'Autoridad';
-$LNG['se_search_users'][7]	=	'¿Suspendido?';
-$LNG['se_search_users'][8]	=	'¿Vacaciones?';
+$LNG['se_search_users_0']	=	'ID';
+$LNG['se_search_users_1']	=	'Nombre';
+$LNG['se_search_users_2']	=	'Correo electrónico';
+$LNG['se_search_users_3']	=	'Última actividad';
+$LNG['se_search_users_4']	=	'Fecha de registro';
+$LNG['se_search_users_5']	=	'Última IP';
+$LNG['se_search_users_6']	=	'Autoridad';
+$LNG['se_search_users_7']	=	'¿Suspendido?';
+$LNG['se_search_users_8']	=	'¿Vacaciones?';
 
 // BÚSQUEDA EN TABLA DE PLANETAS
-$LNG['se_search_planets'][0]	=	$SE_ID;
-$LNG['se_search_planets'][1]	=	$SE_NAME;
-$LNG['se_search_planets'][2]	=	"Propietario";
-$LNG['se_search_planets'][3]	=	"Última actividad";
-$LNG['se_search_planets'][4]	=	"Galaxia";
-$LNG['se_search_planets'][5]	=	"Sistema";
-$LNG['se_search_planets'][6]	=	"Planeta";
-$LNG['se_search_planets'][7]	=	"Luna";
+$LNG['se_search_planets_0']	=	'ID';
+$LNG['se_search_planets_1']	=	'Nombre';
+$LNG['se_search_planets_2']	=	"Propietario";
+$LNG['se_search_planets_3']	=	"Última actividad";
+$LNG['se_search_planets_4']	=	"Galaxia";
+$LNG['se_search_planets_5']	=	"Sistema";
+$LNG['se_search_planets_6']	=	"Planeta";
+$LNG['se_search_planets_7']	=	"Luna";
 
 // BÚSQUEDA EN TABLA DE SUSPENDIDOS
-$LNG['se_search_banned'][0]	=	$SE_ID;
-$LNG['se_search_banned'][1]	=	$SE_NAME;
-$LNG['se_search_banned'][2]	=	"Fecha de suspensión";
-$LNG['se_search_banned'][3]	=	"Fecha de reactivación";
-$LNG['se_search_banned'][4]	=	"Razón";
-$LNG['se_search_banned'][5]	=	"Autor";
+$LNG['se_search_banned_0']	=	'ID';
+$LNG['se_search_banned_1']	=	'Nombre';
+$LNG['se_search_banned_2']	=	"Fecha de suspensión";
+$LNG['se_search_banned_3']	=	"Fecha de reactivación";
+$LNG['se_search_banned_4']	=	"Razón";
+$LNG['se_search_banned_5']	=	"Autor";
 
 // BÚSQUEDA EN TABLA DE LA ALIANZA
-$LNG['se_search_alliance'][0]	=	$SE_ID;
-$LNG['se_search_alliance'][1]	=	$SE_NAME;
-$LNG['se_search_alliance'][2]	=	"TAG";
-$LNG['se_search_alliance'][3]	=	"Lider";
-$LNG['se_search_alliance'][4]	=	"Fecha de creación";
-$LNG['se_search_alliance'][5]	=	"Cantidad de miembros";
+$LNG['se_search_alliance_0']	=	'ID';
+$LNG['se_search_alliance_1']	=	'Nombre';
+$LNG['se_search_alliance_2']	=	"TAG";
+$LNG['se_search_alliance_3']	=	"Lider";
+$LNG['se_search_alliance_4']	=	"Fecha de creación";
+$LNG['se_search_alliance_5']	=	"Cantidad de miembros";
 //###########################################################//
 
 
@@ -1224,14 +1220,14 @@ $LNG['log_universe']					= 'Universo';
 
 
 //Cronjobs
-$LNG['cronName']['referral']		= 'Referencia-Bonus';
-$LNG['cronName']['statistic']		= 'Estadisticas';
-$LNG['cronName']['daily']			= 'Tareas Diarias';
-$LNG['cronName']['cleaner']			= 'Eliminar Archivos Antiguos';
-$LNG['cronName']['inactive']		= 'Eliminar Inactivos';
-$LNG['cronName']['teamspeak']		= 'Actualización Teamspeak';
-$LNG['cronName']['tracking']		= 'Enviar Estadísticas globales del servidor.';
-$LNG['cronName']['databasedump']	= 'Copia de Seguridad-Base de Datos';
+$LNG['cronName_referral']		= 'Referencia-Bonus';
+$LNG['cronName_statistic']		= 'Estadisticas';
+$LNG['cronName_daily']			= 'Tareas Diarias';
+$LNG['cronName_cleaner']			= 'Eliminar Archivos Antiguos';
+$LNG['cronName_inactive']		= 'Eliminar Inactivos';
+$LNG['cronName_teamspeak']		= 'Actualización Teamspeak';
+$LNG['cronName_tracking']		= 'Enviar Estadísticas globales del servidor.';
+$LNG['cronName_databasedump']	= 'Copia de Seguridad-Base de Datos';
 
 
 $LNG['cronjob_id']					= 'ID';

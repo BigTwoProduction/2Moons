@@ -43,9 +43,9 @@ $LNG['type_mission'][10]  					= 'Missile attack';
 $LNG['type_mission'][11]  					= 'Research of Dark matter ';
 $LNG['type_mission'][15] 					= 'Expedition';
 
-$LNG['type_planet'][1]  					= 'Planet';
-$LNG['type_planet'][2]  					= 'Debris Field';
-$LNG['type_planet'][3]  					= 'Moon';
+$LNG['type_planet_1']  					= 'Planet';
+$LNG['type_planet_2']  					= 'Debris Field';
+$LNG['type_planet_3']  					= 'Moon';
 
 $LNG['user_level'] = array (
 	'0' => 'Player',
@@ -470,7 +470,7 @@ $LNG['tt_lvl']								= 'Level ';
 //----------------------------------------------------------------------------//
 // Infos
 $LNG['in_jump_gate_no_target']				= 'No target jump available.';
-$LNG['in_jump_gate_done']					='The jump portal was used, you can use it in:';
+$LNG['in_jump_gate_done']					= 'The jump portal was used, you can use it in:';
 $LNG['in_jump_gate_error_data']			    = 'Error, coordinates to jump are not correct!';
 $LNG['in_jump_gate_not_ready_target']		= 'The portal is not ready in destination Moon, will be ready in ';
 $LNG['in_jump_gate_doesnt_have_one']		= 'Dont you have another portal to make the jump!';
